@@ -1,0 +1,15 @@
+@import './styles/iconfont.wxss';
+/* wx不支持通配符 */
+page,view,text,swiper,swiper-item,navigator,image{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 主题样式   变量*/
+page{
+    --themeColor:#eb4450;
+    font-size: 28rpx;
+}
+ image{
+     width: 100%;
+ }
